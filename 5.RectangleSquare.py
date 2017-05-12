@@ -64,18 +64,15 @@ if __name__ == '__main__':
     print("Enter the width: ")
     w = int(input())
     theRectangle = Rectangle(length=l, width=w)
-    print(theRectangle.get_area())
-    print(theRectangle.get_perimeter())
-    print("This is a square: ", theRectangle.is_square())
+    print("Area is:",theRectangle.get_area())
+    print("Perimeter is:", theRectangle.get_perimeter())
+    print("This is a square:", theRectangle.is_square())
 
     print("Enter two numbers for first coordinates: ")
     first = tuple(map(int, input().split(',')))
     print("Enter two numbers for second coordinates: ")
     second = tuple(map(int, input().split(',')))
     theRectangle = Rectangle(first, second)
-    print(theRectangle.get_area())
-    print(theRectangle.get_perimeter())
-    print(theRectangle.is_square())
-
-
-
+    print("Area is:",theRectangle.get_area())
+    print("Perimeter is:", theRectangle.get_perimeter())
+    print("This is a square:",theRectangle.is_square())
