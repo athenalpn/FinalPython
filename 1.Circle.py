@@ -14,7 +14,7 @@ radius = float( radius )
 
 area = pi * radius * radius
 circ = 2 * pi * radius
-diam = radius * radius
+diam = 2 * radius
 
 print("Area of Circle is", area )
 print ("Circumference of Circle is", circ)
